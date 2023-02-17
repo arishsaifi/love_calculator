@@ -1,0 +1,102 @@
+
+
+body{
+    
+    background-image: url(images/love.jpg);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    font-family: sans-serif;
+    color:rgb(40, 7, 45);
+    max-width: fit-content;
+
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display: flex;
+    height: 42%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    animation: 1.5s ease 0s infinite pulse;
+  }
+  
+  .box {
+    height: 40%;
+    max-height: 400px;
+  }
+  
+  #heart {
+    height: 100%;
+    margin-left: auto;
+    animation: 1.5s ease 0s infinite beat;
+  }
+  
+.loveButton{
+    
+    font-size:15px;
+    font-family:Arial;
+    width:350px;
+    height:50px;
+    border-width:0px;
+    color:#000000;
+    border-color:rgba(189, 16, 224, 1);
+    font-weight:bold;
+    border-top-left-radius:42px;
+    border-bottom-right-radius:42px;
+    box-shadow: 3px 4px 0px 0px rgba(255, 182, 201, 1);
+    text-shadow: 0px 1px 0px #528ecc;
+    background-color:transparent;
+  } 
+  
+
+ 
+  
+                  
+
+h2{
+    text-align: center;
+    text-decoration: none;
+}
+h3{
+    text-align: center;
+}
+
+
+.buttonClass {
+    font-size:15px;
+    font-family:Arial;
+    width:200px;
+    height:50px;
+    border-width:1px;
+    color:#fff;
+    border-color:#599bb3;
+    font-weight:bold;
+    border-top-right-radius:38px;
+    border-bottom-left-radius:38px;
+    box-shadow: 0px 10px 14px -7px #276873;
+    text-shadow: 0px 1px 0px #3d768a;
+    background:linear-gradient(#599bb3, rgba(219, 4, 199, 0.67));
+  }
+  
+.buttonClass:hover {
+    background: linear-gradient(rgba(0, 0, 0, 0.67), #599bb3);
+  }
+                
+  @keyframes beat {
+    0%, 50%, 100% { transform: scale(1, 1); }
+    30%, 80% { transform: scale(0.92, 0.95); }
+  }
+  
+  @keyframes pulse {
+    0%, 50%, 100% {  background: #fee; }
+    30%, 80% { background: #FFB6C1; }
+  }
